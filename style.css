@@ -1,0 +1,64 @@
+th,td {
+        outline: solid;
+      }
+
+th:nth-child(2n){
+    color: red;
+    background-color: aqua;
+}  
+
+th:nth-child(1n){
+    color: blueviolet;
+}
+th:first-child{
+    background-color: burlywood;
+}
+th:nth-child(3){
+    background-color: goldenrod;
+}
+th:nth-child(5){
+    background-color: coral;
+}
+th:nth-child(7){
+    background-color: red;
+}
+tbody>tr:first-child>td{
+    color: rgb(255, 153, 0);
+    background-color: red;
+}
+tbody>tr:nth-child(2)>td{
+    color: rgb(3, 0, 184);
+    background-color: rgb(10, 138, 48);
+}
+tbody>tr:nth-child(3)>td{
+    color: rgb(242, 242, 245);
+    background-color: rgb(0, 0, 0);
+}
+tbody>tr:nth-child(4)>td:hover{
+    color: rgb(136, 60, 60);
+    font-style: italic;
+    font-size: 40px;
+    text-shadow:5px 7px 10px yellowgreen;
+}
+
+tbody>tr:nth-child(5)>td>a:link{
+    text-shadow:5px 7px 10px yellowgreen;
+    background-color: aqua;
+}
+tbody>tr:nth-child(5)>td>a:hover{
+    color: rgb(255, 17, 0);
+    text-shadow:5px 7px 10px yellowgreen;
+    background-color: aqua;
+    font-size: 20px;
+}
+
+tbody>tr:nth-child(5)>td{
+    color: rgb(255, 0, 242);
+    background-color: rgb(9, 128, 184);
+}
+
+tbody>tr:nth-child(6)>td{
+    color: rgb(0, 225, 255);
+    background-color: rgb(229, 255, 0);
+    text-shadow: 20px 9px 10px grey;
+}
